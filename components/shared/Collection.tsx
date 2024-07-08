@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams, useRouter } from "next/navigation";
-import { CldImage } from 'next-cloudinary';
+import { CldImage } from "next-cloudinary";
 
 import {
   Pagination,
@@ -54,9 +54,9 @@ export const Collection = ({
       </div>
 
       {images.length > 0 ? (
-         <ul className="collection-list">
-          {images.map((image) => (
-            <Card image={image} key={image._id} />
+        <ul className="collection-list">
+          {images.map((image, index) => (
+            <Card image={image} key={index} />
           ))}
         </ul>
       ) : (

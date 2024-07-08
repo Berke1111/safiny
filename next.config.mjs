@@ -8,10 +8,7 @@ const nextConfig = {
         port: ''
       }
     ]
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  }
 };
 
 export default nextConfig;

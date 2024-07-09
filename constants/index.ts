@@ -47,10 +47,10 @@ export const navLinks = [
       name: "Free",
       icon: "/assets/icons/free-plan.svg",
       price: 0,
-      credits: 5,
+      credits: 20,
       inclusions: [
         {
-          label: "5 Free Credits",
+          label: "20 Free Credits",
           isIncluded: true,
         },
         {
@@ -71,11 +71,11 @@ export const navLinks = [
       _id: 2,
       name: "Pro Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 19.99,
-      credits: 50,
+      price: 40,
+      credits: 120,
       inclusions: [
         {
-          label: "50 Credits",
+          label: "120 Credits",
           isIncluded: true,
         },
         {
@@ -96,11 +96,11 @@ export const navLinks = [
       _id: 3,
       name: "Premium Package",
       icon: "/assets/icons/free-plan.svg",
-      price: 39.99,
-      credits: 120,
+      price: 199,
+      credits: 2000,
       inclusions: [
         {
-          label: "120 Credits",
+          label: "2000 Credits",
           isIncluded: true,
         },
         {

@@ -46,7 +46,7 @@ export const navLinks = [
       _id: 1,
       name: "Free",
       icon: "/assets/icons/free-plan.svg",
-      price: 0,
+      price: 0.99,
       credits: 20,
       inclusions: [
         {

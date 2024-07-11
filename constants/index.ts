@@ -66,9 +66,37 @@ export const navLinks = [
           isIncluded: false,
         },
       ],
-    },
+    }, 
+
     {
       _id: 2,
+      name: "Beginner",
+      icon: "/assets/icons/free-plan.svg",
+      price: 9,
+      credits: 25,
+      inclusions: [
+        {
+          label: "25 Credits",
+          isIncluded: true,
+        },
+        {
+          label: "Full Access to Services",
+          isIncluded: true,
+        },
+        {
+          label: "Priority Customer Support",
+          isIncluded: false,
+        },
+        {
+          label: "Priority Updates",
+          isIncluded: false,
+        },
+      ],
+    },
+
+
+    {
+      _id: 3,
       name: "Pro Package",
       icon: "/assets/icons/free-plan.svg",
       price: 15,
